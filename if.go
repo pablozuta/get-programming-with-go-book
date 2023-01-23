@@ -18,6 +18,9 @@ func main()  {
 	} else {
 		fmt.Println("Didn't quite get that.")
 	}
+	// Both else if and else are optional. 
+	// When there are several paths to consider, you can repeat 
+	// else if as many times as needed.
 
 	// Quick check 3.3
 	// Write a program that uses if and else if to display a description

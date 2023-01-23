@@ -18,4 +18,19 @@ func main() {
 
 	//podemos hacer esto mismo en una sola linea usando Println
 	fmt.Println("Mi peso en la superficie de Marte seria: ", 72 * 0.3783, " Kilos , y mi edad serian los juveniles", 40 * 365 / 687, "años.")
+
+	// age with input from person
+	var inputAge int16
+	fmt.Println("Please enter your age:")
+	fmt.Scanln(&inputAge)
+    var marsAge = inputAge * 365 / 687
+	fmt.Println("Your age in martian years is: " , marsAge)
+	
+	// weight with input
+	var inputWeight float32
+	fmt.Println("Please enter your weight: ")
+	fmt.Scanln(&inputWeight)
+	var marsWeight = inputWeight * 0.3783
+	fmt.Println("Your weight in martian surface would be : " , marsWeight)
+
 }
