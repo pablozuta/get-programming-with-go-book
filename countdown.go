@@ -3,6 +3,7 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"time"
 )
 
@@ -15,5 +16,14 @@ func main()  {
 		cuenta--
 	}
 	fmt.Println("Liftoff!")
+
+	// random countdown
+	for cuenta > 0 {
+		fmt.Println(cuenta)
+		time.Sleep(time.Second)
+		if rand.Intn(100) == 0 {
+			break
+		}
+	}
  	
 }
