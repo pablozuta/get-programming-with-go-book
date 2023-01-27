@@ -1,3 +1,4 @@
+// Listing 6.1 (64bits vs 32bit floating-point)
 // Go has two floating-point types. The default floating-point type is float64
 // a 64-bit floating-point type that uses eight bytes of memory.
 
