@@ -13,10 +13,14 @@ func main()  {
 	planets[0] = "Mercury"
 	planets[1] = "Venus"
 	planets[2] = "Earth"
+	planets[3] = "Saturn"
+	planets[4] = "Jupiter"
+	planets[5] = "Uranus"
+
 	fmt.Println(planets[0])
 	fmt.Println(planets)
 
-	// Even though only three planets have been assigned, the planets array has eight elements.
+	
 	// The length of an array can be determined with the built-in len function.
 	// The other elements contain the zero value for their type, an empty string:
 	fmt.Println("Lenght of planets array= ", len(planets))
